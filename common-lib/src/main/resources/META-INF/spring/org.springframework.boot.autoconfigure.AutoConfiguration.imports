@@ -1,0 +1,6 @@
+com.vinay.paymentgateway.common_lib.util.SharedSecurityAutoConfiguration
+com.vinay.paymentgateway.common_lib.config.SharedKafkaAutoConfiguration
+com.vinay.paymentgateway.common_lib.web.SharedWebFilterAutoConfiguration
+com.vinay.paymentgateway.common_lib.idempotency.SharedResilienceAutoCongigaration
+com.vinay.paymentgateway.common_lib.audit.SharedAuditAutoConfiguration
+com.vinay.paymentgateway.common_lib.exception.SharedExceptionAutoConfiguration

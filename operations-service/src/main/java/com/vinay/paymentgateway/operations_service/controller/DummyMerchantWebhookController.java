@@ -1,0 +1,18 @@
+package com.vinay.paymentgateway.operations_service.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Map;
+
+@RestController
+@RequestMapping("/webhook")
+public class DummyMerchantWebhookController {
+
+    @PostMapping("/success")
+    public ResponseEntity<Void> handleWebhookSuccess(Map<String , Object> requestBody ){
+        return ResponseEntity.noContent().build();
+    }
+}
